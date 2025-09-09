@@ -1,6 +1,6 @@
 {
-  "name": "gsmarena-api-server",
-  "version": "3.0.0",
+  "name": "gsmarena-api-again",
+  "version": "3.0.1",
   "description": "A web API to parse GSMArena and return JSON data.",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,8 @@
     "url": "https://github.com/nordmarin/gsmarena-api.git"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "keywords": [
     "gsmarena",
@@ -16,7 +17,7 @@
     "web",
     "server"
   ],
-  "author": "Kirill Potapenko (kirill.potap97@gmail.com)",
+  "author": "Adriel - Original by nordmarin",
   "license": "MIT",
   "dependencies": {
     "@sparticuz/chromium": "^123.0.1",
@@ -24,5 +25,7 @@
     "express": "^4.18.2",
     "puppeteer-core": "^22.6.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "puppeteer": "^22.6.3"
+  }
 }
